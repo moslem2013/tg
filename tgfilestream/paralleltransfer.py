@@ -195,4 +195,5 @@ class ParallelTransferrer:
                        f" of {part_count} {location!s}")
         request = GetFileRequest(location, offset=first_part * part_size, limit=part_size)
 
-        return self._int_download(request, first_part, last_part
+        return self._int_download(request, first_part, last_part, part_count, part_size, dc_id,
+                                  first_part_cut, last_part_cut)

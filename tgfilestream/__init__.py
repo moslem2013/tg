@@ -1,2 +1,2 @@
 __version__ = "0.1.0"
-__author__ = "Suyash Mhatre <tulir@maunium.net>"
+__author__ = "Tulir Asokan <tulir@maunium.net>"
